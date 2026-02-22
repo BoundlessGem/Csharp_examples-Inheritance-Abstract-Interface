@@ -1,5 +1,5 @@
 Abstract
-
+```
   ○ Abstract Classes 
     ○ cannot be instantiated, static, nor sealed, because it's fundamentally made to be overridden.
     ○ Abstract classes exist because abstract methods has to be within abstract classes
@@ -14,11 +14,12 @@ Abstract
       □ Cannot be made private or static, because they must be inherited (doesn't have code otherwise)
     ○ derived methods must inherit and override the base method in order to provide method a
       body "{}": internal override void Method() {body};
-    
+``` 
 Sealed [Prevents further overriding] [enables devirtualization] ???
-
+```
   ○ class 
     □ Can seal entire classes to prevent any further inheritance from  that class
   ○ method
     □ When used on method sealed modifier must be used together with override modifier to
       prevent method from being overridden
+```
